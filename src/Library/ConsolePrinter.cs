@@ -9,7 +9,8 @@ using System.IO;
 namespace Full_GRASP_And_SOLID.Library
 {
     /// <summary>
-    /// Clse ConsolePrinter la cual usa la interfaz IPrinter, esta tiene el fin de imprimir por consola.
+    /// Clse ConsolePrinter la cual usa la interfaz IPrinter, esta tiene el fin de imprimir por consola y cumple 
+    /// con SRP debido a que es su unica responsabilidad.
     /// </summary>
     public class ConsolePrinter : IPrinter
     {
